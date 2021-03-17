@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <ThingDef Name="GNCA_BaseHumanMakeableGun" ParentName="BaseMakeableGun" Abstract="True">
+    <thingCategories Inherit = "False">
+      <li>GunNut</li>
+    </thingCategories>    
+    <comps>
+      <li Class="CompProperties_BiocodableWeapon"/>
+    </comps>
+    <thingSetMakerTags Inherit = "False">
+    </thingSetMakerTags>
+  </ThingDef>
+</Defs>

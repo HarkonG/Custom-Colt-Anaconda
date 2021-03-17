@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+  <!--===== Colt Anaconda Long ===== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_Colt_Anaconda_L</defName>
+    <label>Colt Anaconda .50 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>16</damageAmountBase>
+      <stoppingPower>2</stoppingPower>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GNCA_BaseHumanMakeableGun">
+    <defName>GN_Colt_Anaconda_L</defName>
+    <label>Colt Anaconda extended</label>
+    <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version is outfitted with high-tech spacer modifications which allow it to fire .50 BMG rounds. It also features a longer barrel, as well as a sleek black design.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_Colt_Anaconda_L</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>GN_Interact_Colt_Anaconda</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>2</Mass>
+      <AccuracyTouch>0.65</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.40</AccuracyLong>
+      <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>30</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_Colt_Anaconda_L</defaultProjectile>
+        <warmupTime>0.6</warmupTime>
+        <range>30</range>
+        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!--===== Colt Anaconda Medium ===== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_Colt_Anaconda_M</defName>
+    <label>Colt Anaconda .44 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>14</damageAmountBase>
+      <stoppingPower>1.5</stoppingPower>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GNCA_BaseHumanMakeableGun">
+    <defName>GN_Colt_Anaconda_M</defName>
+    <label>Colt Anaconda</label>
+    <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_Colt_Anaconda_M</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>GN_Interact_Colt_Anaconda</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>4000</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.45</AccuracyMedium>
+      <AccuracyLong>0.35</AccuracyLong>
+      <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>25</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_Colt_Anaconda_M</defaultProjectile>
+        <warmupTime>0.3</warmupTime>
+        <range>26</range>
+        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+    </weaponTags>
+  </ThingDef>
+
+  <!--===== Colt Anaconda Short ===== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>GN_Bullet_Colt_Anaconda_S</defName>
+    <label>Colt Anaconda .45 bullet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="GNCA_BaseHumanMakeableGun">
+    <defName>GN_Colt_Anaconda_S</defName>
+    <label>Colt Anaconda snub nose</label>
+    <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version features a snubnose barrel, which allows it to be wielded with just one hand. It's also faster to fire than the other variants.</description>
+    <graphicData>
+      <texPath>Things/Weapons/GN_Colt_Anaconda_S</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>GN_Interact_Colt_Anaconda</soundInteract>
+    <recipeMaker>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>3500</WorkToMake>
+      <Mass>1.4</Mass>
+      <AccuracyTouch>0.80</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.35</AccuracyMedium>
+      <AccuracyLong>0.25</AccuracyLong>
+      <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>20</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GN_Bullet_Colt_Anaconda_S</defaultProjectile>
+        <warmupTime>0.2</warmupTime>
+        <range>22.0</range>
+        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>grip</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SimpleGun</li>
+      <li>Revolver</li>
+    </weaponTags>
+  </ThingDef>
+
+</Defs>
