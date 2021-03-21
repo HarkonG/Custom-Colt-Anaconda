@@ -11,15 +11,15 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>16</damageAmountBase>
-      <stoppingPower>2</stoppingPower>
+      <damageAmountBase>26</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
       <speed>55</speed>
     </projectile>
   </ThingDef>
 
   <ThingDef ParentName="GNCA_BaseHumanMakeableGun">
     <defName>GN_Colt_Anaconda_L</defName>
-    <label>Colt Anaconda extended</label>
+    <label>Colt Anaconda spacer</label>
     <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version is outfitted with high-tech spacer modifications which allow it to fire .50 BMG rounds. It also features a longer barrel, as well as a sleek black design.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_Colt_Anaconda_L</texPath>
@@ -27,10 +27,10 @@
     </graphicData>
     <soundInteract>GN_Interact_Colt_Anaconda</soundInteract>
     <recipeMaker>
-      <recipeUsers>
-        <li>TableMachining</li>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
       </recipeUsers>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>SpacerGun</researchPrerequisite>
       <skillRequirements>
         <Crafting>3</Crafting>
       </skillRequirements>
@@ -80,7 +80,7 @@
       </li>
     </tools>
     <weaponTags>
-      <li>SimpleGun</li>
+      <li>SpacerGun</li>
       <li>Revolver</li>
     </weaponTags>
   </ThingDef>
@@ -187,7 +187,7 @@
 
   <ThingDef ParentName="GNCA_BaseHumanMakeableGun">
     <defName>GN_Colt_Anaconda_S</defName>
-    <label>Colt Anaconda snub nose</label>
+    <label>Colt Anaconda snubnosed</label>
     <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version features a snubnose barrel, which allows it to be wielded with just one hand. It's also faster to fire than the other variants.</description>
     <graphicData>
       <texPath>Things/Weapons/GN_Colt_Anaconda_S</texPath>

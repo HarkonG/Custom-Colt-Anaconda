@@ -12,10 +12,7 @@
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[
-					defName = "GN_Colt_Anaconda_L" or
-					defName = "GN_Colt_Anaconda_M" or											
-					defName = "GN_Colt_Anaconda_S"]/tools
+				    /Defs/ThingDef[	defName = "GN_Colt_Anaconda_L" ]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -24,10 +21,72 @@
                                 <capacities>
                                     <li>Blunt</li>
                                 </capacities>
-                                <power>2</power>
+                                <power>8</power>
                                 <cooldownTime>1.54</cooldownTime>
                                 <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>2.0</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>muzzle</label>
+                                <capacities>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
                                 <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+				    /Defs/ThingDef[ defName = "GN_Colt_Anaconda_M" ]/tools
+                    </xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>grip</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>6</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
+                            </li>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>muzzle</label>
+                                <capacities>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>2</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <armorPenetrationBlunt>0.555</armorPenetrationBlunt>
+                                <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+                            </li>
+                        </tools>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>
+				    /Defs/ThingDef[	defName = "GN_Colt_Anaconda_S"]/tools
+                    </xpath>
+                    <value>
+                        <tools>
+                            <li Class="CombatExtended.ToolCE">
+                                <label>grip</label>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>4</power>
+                                <cooldownTime>1.54</cooldownTime>
+                                <chanceFactor>1.5</chanceFactor>
+                                <armorPenetrationBlunt>1.0</armorPenetrationBlunt>
                                 <linkedBodyPartsGroup>Grip</linkedBodyPartsGroup>
                             </li>
                             <li Class="CombatExtended.ToolCE">
@@ -80,10 +139,11 @@
                         <aiUseBurstMode>FALSE</aiUseBurstMode>
                     </FireModes>
                     <weaponTags>
+                        <li>SpacerGun</li>
                         <li>CE_Sidearm</li>
                         <li>CE_AI_Pistol</li>
                     </weaponTags>
-                    <researchPrerequisite>GN_Research</researchPrerequisite>
+                    <researchPrerequisite>ChargedShot</researchPrerequisite>
                 </li>
 
                 <!--===== GN_Colt_Anaconda_M =====-->
