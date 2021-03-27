@@ -117,7 +117,9 @@
                     </statBases>
                     <costList>
                         <Steel>35</Steel>
-                        <ComponentIndustrial>2</ComponentIndustrial>
+                        <Plasteel>20</Plasteel>
+                        <ComponentIndustrial>8</ComponentIndustrial>
+                        <Chemfuel>10</Chemfuel>
                     </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -143,7 +145,6 @@
                         <li>CE_Sidearm</li>
                         <li>CE_AI_Pistol</li>
                     </weaponTags>
-                    <researchPrerequisite>ChargedShot</researchPrerequisite>
                 </li>
 
                 <!--===== GN_Colt_Anaconda_M =====-->
@@ -160,9 +161,7 @@
                     </statBases>
                     <costList>
                         <Steel>35</Steel>
-                        <Plasteel>20</Plasteel>
-                        <ComponentIndustrial>8</ComponentIndustrial>
-                        <Chemfuel>10</Chemfuel>
+                        <ComponentIndustrial>2</ComponentIndustrial>
                     </costList>
                     <Properties>
                         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
@@ -187,7 +186,6 @@
                         <li>CE_Sidearm</li>
                         <li>CE_AI_Pistol</li>
                     </weaponTags>
-                    <researchPrerequisite>Gunsmithing</researchPrerequisite>
                 </li>
 
                 <!--===== GN_Colt_Anaconda_S =====-->
@@ -230,7 +228,6 @@
                         <li>CE_AI_Pistol</li>
                         <li>CE_OneHandedWeapon</li>
                     </weaponTags>
-                    <researchPrerequisite>Gunsmithing</researchPrerequisite>
                 </li>
 
             </operations>
