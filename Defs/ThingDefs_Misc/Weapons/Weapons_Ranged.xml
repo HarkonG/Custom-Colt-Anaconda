@@ -20,7 +20,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Colt_Anaconda_L</defName>
-    <label>Colt Anaconda (Spacer)</label>
+    <label>Colt Anaconda (spacer)</label>
     <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version is outfitted with high-tech spacer modifications which allow it to fire .50 BMG rounds. It also features a longer barrel, as well as a sleek black design.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_Colt_Anaconda_L</texPath>
@@ -188,7 +188,7 @@
 
   <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
     <defName>HRK_Colt_Anaconda_S</defName>
-    <label>Colt Anaconda (Snubnosed)</label>
+    <label>Colt Anaconda (snubnosed)</label>
     <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version features a snubnose barrel, which allows it to be wielded with just one hand. It's also faster to fire than the other variants.</description>
     <graphicData>
       <texPath>Things/Weapons/HRK_Colt_Anaconda_S</texPath>
