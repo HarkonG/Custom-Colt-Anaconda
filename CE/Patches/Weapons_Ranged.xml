@@ -12,7 +12,7 @@
                 <!--===== TOOLS FOR THE TOOL GOD =====-->
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[	defName = "GN_Colt_Anaconda_L" ]/tools
+				    /Defs/ThingDef[	defName = "HRK_Colt_Anaconda_L" ]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -43,7 +43,7 @@
 
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[ defName = "GN_Colt_Anaconda_M" ]/tools
+				    /Defs/ThingDef[ defName = "HRK_Colt_Anaconda_M" ]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -74,7 +74,7 @@
 
                 <li Class="PatchOperationReplace">
                     <xpath>
-				    /Defs/ThingDef[	defName = "GN_Colt_Anaconda_S"]/tools
+				    /Defs/ThingDef[	defName = "HRK_Colt_Anaconda_S"]/tools
                     </xpath>
                     <value>
                         <tools>
@@ -103,9 +103,9 @@
                     </value>
                 </li>
 
-                <!--===== GN_Colt_Anaconda_L =====-->
+                <!--===== HRK_Colt_Anaconda_L =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_Colt_Anaconda_L</defName>
+                    <defName>HRK_Colt_Anaconda_L</defName>
                     <statBases>
                         <Mass>1.49</Mass>
                         <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
@@ -127,7 +127,7 @@
                         <defaultProjectile>Bullet_50BMG_FMJ</defaultProjectile>
                         <warmupTime>1.2</warmupTime>
                         <range>24</range>
-                        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+                        <soundCast>HRK_Shot_Colt_Anaconda</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -147,9 +147,9 @@
                     </weaponTags>
                 </li>
 
-                <!--===== GN_Colt_Anaconda_M =====-->
+                <!--===== HRK_Colt_Anaconda_M =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_Colt_Anaconda_M</defName>
+                    <defName>HRK_Colt_Anaconda_M</defName>
                     <statBases>
                         <Mass>1.39</Mass>
                         <RangedWeapon_Cooldown>0.48</RangedWeapon_Cooldown>
@@ -169,7 +169,7 @@
                         <defaultProjectile>Bullet_44Magnum_FMJ</defaultProjectile>
                         <warmupTime>0.6</warmupTime>
                         <range>18</range>
-                        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+                        <soundCast>HRK_Shot_Colt_Anaconda</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>
@@ -188,9 +188,9 @@
                     </weaponTags>
                 </li>
 
-                <!--===== GN_Colt_Anaconda_S =====-->
+                <!--===== HRK_Colt_Anaconda_S =====-->
                 <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
-                    <defName>GN_Colt_Anaconda_S</defName>
+                    <defName>HRK_Colt_Anaconda_S</defName>
                     <statBases>
                         <Mass>1.29</Mass>
                         <RangedWeapon_Cooldown>0.34</RangedWeapon_Cooldown>
@@ -210,7 +210,7 @@
                         <defaultProjectile>Bullet_45Colt_FMJ</defaultProjectile>
                         <warmupTime>0.4</warmupTime>
                         <range>12</range>
-                        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+                        <soundCast>HRK_Shot_Colt_Anaconda</soundCast>
                         <soundCastTail>GunTail_Light</soundCastTail>
                         <muzzleFlashScale>9</muzzleFlashScale>
                     </Properties>

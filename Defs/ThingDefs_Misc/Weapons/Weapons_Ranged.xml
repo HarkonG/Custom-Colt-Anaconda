@@ -4,7 +4,7 @@
 
   <!--===== Colt Anaconda Long ===== -->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_Colt_Anaconda_L</defName>
+    <defName>HRK_Bullet_Colt_Anaconda_L</defName>
     <label>Colt Anaconda .50 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Big</texPath>
@@ -18,18 +18,15 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_Colt_Anaconda_L</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_Colt_Anaconda_L</defName>
     <label>Colt Anaconda (Spacer)</label>
     <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version is outfitted with high-tech spacer modifications which allow it to fire .50 BMG rounds. It also features a longer barrel, as well as a sleek black design.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_Colt_Anaconda_L</texPath>
+      <texPath>Things/Weapons/HRK_Colt_Anaconda_L</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
-    <soundInteract>GN_Interact_Colt_Anaconda</soundInteract>
+    </graphicData>    
+    <soundInteract>HRK_Interact_Colt_Anaconda</soundInteract>
     <recipeMaker>
       <recipeUsers Inherit="False">
         <li>FabricationBench</li>
@@ -56,10 +53,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_Colt_Anaconda_L</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_Colt_Anaconda_L</defaultProjectile>
         <warmupTime>0.6</warmupTime>
         <range>30</range>
-        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+        <soundCast>HRK_Shot_Colt_Anaconda</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -91,7 +88,7 @@
 
   <!--===== Colt Anaconda Medium ===== -->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_Colt_Anaconda_M</defName>
+    <defName>HRK_Bullet_Colt_Anaconda_M</defName>
     <label>Colt Anaconda .44 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -105,18 +102,15 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_Colt_Anaconda_M</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_Colt_Anaconda_M</defName>
     <label>Colt Anaconda</label>
     <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_Colt_Anaconda_M</texPath>
+      <texPath>Things/Weapons/HRK_Colt_Anaconda_M</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
-    <soundInteract>GN_Interact_Colt_Anaconda</soundInteract>
+    </graphicData>    
+    <soundInteract>HRK_Interact_Colt_Anaconda</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -143,10 +137,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_Colt_Anaconda_M</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_Colt_Anaconda_M</defaultProjectile>
         <warmupTime>0.3</warmupTime>
         <range>26</range>
-        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+        <soundCast>HRK_Shot_Colt_Anaconda</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
@@ -178,7 +172,7 @@
 
   <!--===== Colt Anaconda Short ===== -->
   <ThingDef ParentName="BaseBullet">
-    <defName>GN_Bullet_Colt_Anaconda_S</defName>
+    <defName>HRK_Bullet_Colt_Anaconda_S</defName>
     <label>Colt Anaconda .45 bullet</label>
     <graphicData>
       <texPath>Things/Projectile/Bullet_Small</texPath>
@@ -192,18 +186,15 @@
     </projectile>
   </ThingDef>
 
-  <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>GN_Colt_Anaconda_S</defName>
+  <ThingDef ParentName="HRK_GunNut_BaseHumanMakeableGun">
+    <defName>HRK_Colt_Anaconda_S</defName>
     <label>Colt Anaconda (Snubnosed)</label>
     <description>Introduced in 1990, the Colt Anaconda is a large frame double-action revolver featuring a full length under-barrel ejection-rod lug and six round cylinder, designed and produced by the Colt's Manufacturing Company. \n\nThis version features a snubnose barrel, which allows it to be wielded with just one hand. It's also faster to fire than the other variants.</description>
     <graphicData>
-      <texPath>Things/Weapons/GN_Colt_Anaconda_S</texPath>
+      <texPath>Things/Weapons/HRK_Colt_Anaconda_S</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <thingCategories Inherit = "False">
-      <li>GunNut</li>
-    </thingCategories>
-    <soundInteract>GN_Interact_Colt_Anaconda</soundInteract>
+    </graphicData>   
+    <soundInteract>HRK_Interact_Colt_Anaconda</soundInteract>
     <recipeMaker>
       <recipeUsers>
         <li>TableMachining</li>
@@ -230,10 +221,10 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>GN_Bullet_Colt_Anaconda_S</defaultProjectile>
+        <defaultProjectile>HRK_Bullet_Colt_Anaconda_S</defaultProjectile>
         <warmupTime>0.2</warmupTime>
         <range>22.0</range>
-        <soundCast>GN_Shot_Colt_Anaconda</soundCast>
+        <soundCast>HRK_Shot_Colt_Anaconda</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>
