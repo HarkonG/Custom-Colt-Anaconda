@@ -9,8 +9,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Shot_Colt_Anaconda</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Shot_Colt_Anaconda</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
@@ -34,8 +34,8 @@
         <subSounds>
             <li>
                 <grains>
-                    <li Class="AudioGrain_Folder">
-                        <clipFolderPath>Weapons/HRK_Interact_Colt_Anaconda</clipFolderPath>
+                    <li Class="AudioGrain_Clip">
+                        <clipPath>Weapons/HRK_Interact_Colt_Anaconda</clipPath>
                     </li>
                 </grains>
                 <volumeRange>
