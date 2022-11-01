@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>[HRK] Custom Colt Anaconda</name>
+	<name>Custom Colt Anaconda</name>
 	<author>Harkon</author>
 	<url>https://steamcommunity.com/sharedfiles/filedetails/?id=2412382876</url>
 	<packageId>Harkon.Other.ColtAnaconda</packageId>
@@ -9,7 +9,7 @@
 		<li>1.4</li>
 	</supportedVersions>
 	<description>
-	[HRK] Custom Colt Anaconda
+	Custom Colt Anaconda
 	</description>
 	<loadAfter>
 		<li>Ludeon.RimWorld</li>
