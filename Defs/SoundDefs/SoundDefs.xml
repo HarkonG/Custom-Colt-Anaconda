@@ -4,7 +4,7 @@
     <SoundDef>
         <defName>HRK_Shot_Colt_Anaconda</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
@@ -29,7 +29,7 @@
     <SoundDef>
         <defName>HRK_Interact_Colt_Anaconda</defName>
         <context>MapOnly</context>
-        <eventNames />
+        <eventNames/>
         <maxSimultaneous>1</maxSimultaneous>
         <subSounds>
             <li>
